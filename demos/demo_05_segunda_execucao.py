@@ -97,7 +97,7 @@ def main():
     
     # Executa job
     from demo_job_retreinamento import executar_job
-    executar_job(usar_csv=True)
+    executar_job(usar_csv=False)
     
     print("─" * 60)
     print()
